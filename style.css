@@ -1,0 +1,105 @@
+
+*{
+    font-family: 'Outfit', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+h1{
+    color: var(--secondary-500, #17252F);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 125%;
+    letter-spacing: -0.96px;
+}
+
+h2{
+    color: var(--base-white, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+h3{
+    color: var(--secondary-500, #17252F);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 122.222%;
+    letter-spacing: -0.72px;
+}
+
+h4{
+    color: var(--base-white, #FFF);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 126.667%;
+}
+
+h5{
+    color: var(--secondary-500, #17252F);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 133.333%;
+}
+
+h6{
+    color: var(--base-white, #FFF);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+p{
+    color: var(--secondary-500, #17252F);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  150%;
+}
+
+.botao{
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    background: #1157DF;
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 120% */
+}
+
+.botao:hover{
+    background: #0d327a;
+    color: var(--white, #FFF);
+}
+
+/*RESPONSIVIDADE TITULOS*/
+
+@media (max-width:1024px){
+    
+    
+    
+}
+
+@media (max-width:767px){
+   
+}
+
+/**/
