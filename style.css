@@ -57,7 +57,7 @@ h5{
 }
 
 h6{
-    color: var(--base-white, #FFF);
+    color: var(--secondary-500, #17252F);
     font-feature-settings: 'clig' off, 'liga' off;
     font-size: 20px;
     font-style: normal;
@@ -71,7 +71,7 @@ p{
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 150%;
 }
 
 .botao{
@@ -389,16 +389,392 @@ p{
 
 /* SEÇÃO 7 */
 
+.individual{
+    margin: 48px 0;
+    background: linear-gradient(180deg, #F6B700 0%, rgba(246, 183, 0, 0.00) 100%);
+}
+
+.block-individual{
+    display: flex;
+    padding: 72px 0;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.block-individual-quadro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.block-individual-quadro-economia{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.block-individual-quadro-economia-vantagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.block-individual-quadro-economia-vantagem-recurso{
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 24px;
+    background: var(--primary-100, #FFF2CC);
+}
+
+.block-individual-quadro-economia-vantagem-recurso.verde{
+    background: var(--green-400, #3CCB7F);
+}
+
+.block-individual-quadro-economia-vantagem-recurso.verde h5{
+    color: var(--green-800, #095C37);
+}
+
+.block-individual-quadro-economia-fatura{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.block-individual-quadro-economia-fatura-gigante{
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 24px;
+    background: var(--secondary-500, #17252F);
+}
+
+.block-individual-quadro-economia-fatura-gigante h5{
+    color: #FFF;
+}
+
+.block-individual-quadro-economia-fatura-digital{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.block-individual-quadro-economia-fatura-digital-cartao{
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 24px;
+    background: var(--base-white, #FFF);
+}
+
+.block-individual-quadro-economia-fatura-digital-cartao b{
+    font-weight: 600;
+}
+
+/* RESPONSIVIDADE SEÇÃO 7 */
 
 
+/* SEÇÃO 8 */
+
+.planos h3:first-child{
+    margin-bottom: 48px;
+}
+
+.planos .col-md-4{
+    padding: 0 16px;
+    display: flex;
+}
+
+.block-planos{
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    border-radius: 24px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.block-planos-titulo{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.block-planos-titulo h3{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.block-planos h6{
+    color: var(--base-white, #FFF);
+}
+
+/* RESPONSIVIDADE SEÇÃO 8 */
 
 
+/* SEÇÃO 9 */
+
+.clientes{
+    margin: 48px 0;
+}
+
+.clientes h3:first-child{
+    margin-bottom: 48px;
+}
+
+.clientes .col-md-4{
+    padding: 0 16px;
+    display: flex;
+}
+
+.block-clientes{
+    display: flex;
+    padding: 24px 24px 72px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 48px;
+    background: var(--gray-100, #F2F4F7);
+}
+
+.block-clientes-perfil{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.block-clientes-perfil-nome{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+}
+
+.block-clientes-perfil-nome h6{
+    font-weight: 700;
+}
+
+.block-clientes-perfil-nome span{
+    color: var(--secondary-500, #17252F);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 142.857%;
+}
+
+.block-clientes p{
+    font-size: 16px;
+}
+
+/* RESPONSIVIDADE SEÇÃO 9 */
 
 
+/* SEÇÃO 10 */
+
+.block-iniciativa{
+    display: flex;
+    padding: 72px 56px;
+    flex-direction: column;
+    gap: 48px;
+    border-radius: 24px;
+    background: var(--green-500, #16B364);
+}
+
+.block-iniciativa .col-md-4{
+    display: flex;
+    padding: 0 16px;
+}
+
+.block-iniciativa h3{
+    color: #FFF;
+}
+
+.block-iniciativa-item{
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 24px;
+    background: var(--gray-50, #F9FAFB);
+    box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.03), 0px 20px 24px -4px rgba(16, 24, 40, 0.08);
+}
+
+.block-iniciativa-item-conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.block-iniciativa-item-conteudo h3{
+    color: var(--secondary-500, #17252F);
+    font-weight: 700;
+}
+
+.block-iniciativa-item-conteudo p{
+    text-align: center;
+}
+
+/* RESPONSIVIDADE SEÇÃO 10 */
 
 
+/* SEÇÃO 11 */
+
+.sobre{
+    margin: 48px 0;
+    background: linear-gradient(180deg, #F6B700 0%, rgba(246, 183, 0, 0.00) 100%);
+}
+
+.block-sobre{
+    display: flex;
+    padding: 72px 0;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.block-sobre-vagalume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.block-sobre-vagalume-cartao{
+    display: flex;
+    padding: 24px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 48px;
+    border-radius: 32px;
+    background: var(--primary-25, #FEFDF0);
+    width: 917px;
+}
+
+.block-sobre-vagalume-cartao-conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.block-sobre-vagalume-cartao-conteudo h4{
+    color: var(--secondary-500, #17252F);
+}
+
+.block-sobre-vagalume .botao{
+    width: 400px;
+    text-align: center;
+}
+
+/* RESPONSIVIDADE SEÇÃO 11 */
 
 
+/* SEÇÃO 12 */
+
+.parceria .col-md-6{
+    display: flex;
+    padding: 0 16px;
+}
+
+.block-parceria-cartao{
+    display: flex;
+    padding: 48px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 24px;
+    background: var(--primary-500, #F6B700);
+    box-shadow: 0px 8px 8px -4px rgba(16, 24, 40, 0.03), 0px 20px 24px -4px rgba(16, 24, 40, 0.08);
+}
+
+.block-parceria-cartao.verde{
+    background: var(--green-950, #052E1C);
+}
+
+.block-parceria-cartao.verde p{
+    color: #FFF;
+}
+
+.block-parceria-cartao.verde .botao{
+    background-color: #86DB08;
+    color: #17252F;
+}
+
+/* RESPONSIVIDADE SEÇÃO 12 */
+
+
+/* SEÇÃO 13 */
+
+.perguntas {
+    margin: 48px 0;
+}
+
+.block-perguntas{
+    display: flex;
+    padding: 72px 48px;
+    gap: 94px;
+    border-radius: 24px;
+    background: var(--primary-200, #FFE494);
+}
+
+.block-perguntas h2{
+    max-width: 380px;
+}
+
+.block-perguntas-frequentes{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 634px;
+}
+
+.block-perguntas-frequentes p{
+    font-size: 14px;
+}
+
+.block-perguntas-frequentes .negrito{
+    font-weight: 700;
+    font-size: 18px;
+}
 
 
 
