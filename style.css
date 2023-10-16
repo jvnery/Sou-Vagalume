@@ -107,6 +107,16 @@ p{
     padding-left: 240px;
 }
 
+.navbar-nav h6{
+    color: var(--secondary-500, #17252F);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
 .navbar-nav .botao.amarelo{
     border: 1px solid var(--primary-300, #FFD761);
     background: var(--primary-500, #F6B700);
@@ -116,6 +126,32 @@ p{
 .navbar-nav .botao.amarelo:hover{
     border: 1px solid var(--primary-300, #17252F);
     background: var(--primary-500, #FFF);
+}
+
+/* RESPONSIVIDADE CABEÇALHO */
+
+@media (max-width:1600px){
+    .navbar-nav{
+        padding-left: 60px;
+    }
+}
+
+@media (max-width:1400px){
+    .navbar-nav{
+        padding-left: 0px;
+    }
+}
+
+@media (max-width:1300px){
+    .navbar{
+        padding: 32px 16px;
+    }
+}
+
+@media (max-width:1024px){
+    .nav-link {
+        padding: 0;
+    }
 }
 
 /* SEÇÃO 1 */
@@ -206,6 +242,12 @@ p{
 
 /* RESPONSIVIDADE SEÇÃO 2*/
 
+@media (max-width:1024px){
+    .assinatura .col-md-3{
+        width: 50%;
+        padding-bottom: 16px;
+    }
+}
 
 /* SEÇÃO 3 */
 
@@ -236,6 +278,12 @@ p{
 }
 
 /* RESPONSIVIDADE SEÇÃO 3 */
+
+@media (max-width:1024px) {
+    .block-grupo{
+        padding: 24px;
+    }
+}
 
 
 /* SEÇÃO 4 */
@@ -273,6 +321,12 @@ p{
 
 /* RESPONSIVIDADE SEÇÃO 4 */
 
+@media (max-width:1024px) {
+    .custo .col-md-6{
+        width: 100%;
+        padding-bottom: 16px;
+    }
+}
 
 /* SEÇÃO 5 */
 
@@ -497,6 +551,19 @@ p{
 
 /* RESPONSIVIDADE SEÇÃO 7 */
 
+@media (max-width: 1024px){
+    .block-individual{
+        flex-direction: column;
+    }
+
+    .block-individual-quadro-economia{
+        align-items: stretch;
+    }
+
+    .block-individual-quadro-economia .analise{
+        width: 450px;
+    }
+}
 
 /* SEÇÃO 8 */
 
@@ -542,6 +609,12 @@ p{
 
 /* RESPONSIVIDADE SEÇÃO 8 */
 
+@media (max-width: 1024px){
+    .planos .col-md-4{
+        width: 100%;
+        padding-bottom: 16px;
+    }
+}
 
 /* SEÇÃO 9 */
 
@@ -601,6 +674,12 @@ p{
 
 /* RESPONSIVIDADE SEÇÃO 9 */
 
+@media (max-width: 1024px){
+    .clientes .col-md-4{
+        width: 100%;
+        padding-bottom: 16px;
+    }
+}
 
 /* SEÇÃO 10 */
 
@@ -653,6 +732,12 @@ p{
 
 /* RESPONSIVIDADE SEÇÃO 10 */
 
+@media (max-width: 1024px){
+    .iniciativa .col-md-4{
+        width: 100%;
+        padding-bottom: 16px;
+    }
+}
 
 /* SEÇÃO 11 */
 
@@ -705,6 +790,19 @@ p{
 
 /* RESPONSIVIDADE SEÇÃO 11 */
 
+@media (max-width: 1024px){
+    .block-sobre{
+        flex-direction: column;
+    }
+
+    .block-sobre-vagalume-cartao{
+        width: auto;
+    }
+
+    .block-sobre-vagalume-cartao-conteudo{
+        gap: 16px;
+    }
+}
 
 /* SEÇÃO 12 */
 
@@ -741,6 +839,12 @@ p{
 
 /* RESPONSIVIDADE SEÇÃO 12 */
 
+@media (max-width: 1024px){
+    .parceria .col-md-6{
+        width: 100%;
+        padding-bottom: 16px;
+    }
+}
 
 /* SEÇÃO 13 */
 
@@ -776,14 +880,128 @@ p{
     font-size: 18px;
 }
 
+/* RESPONSIVIDADE SEÇÃO 13 */
 
+@media (max-width:1024px) {
+    .block-perguntas{
+        flex-direction: column;
+        gap: 48px;
+    }
 
+    .block-perguntas h2 {
+        max-width: max-content;
+    }
+
+    .block-perguntas-frequentes{
+        width: auto;
+    }
+}
+
+/* SEÇÃO 14 */
+
+.rodape{
+    padding: 72px;
+    background: var(--secondary-500, #17252F);
+}
+
+.block-rodape{
+    display: flex;
+    align-items: flex-start;
+    gap: 72px;
+}
+
+.block-rodape-logo{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.block-rodape-logo-redes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.block-rodape-canais{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.block-rodape-canais p{
+   font-weight: 600;
+   color: #FFF;
+}
+
+.block-rodape-canais-info{
+    display: flex;
+    gap: 40px;
+}
+
+.block-rodape-canais-info p{
+    font-size: 14px;
+    color: #FFF;
+}
+
+.block-rodape-canais-info p b{
+    font-weight: 100;
+}
+
+.block-rodape-canais-info a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.block-rodape-canais-info .email{
+    text-decoration: underline;
+    color: #FFF;
+}
+
+/* RESPONSIVIDADE SEÇÃO 14 */
+
+@media (max-width:768px){
+    .rodape{
+        padding: 72px 0;
+    }
+
+    .block-rodape-canais-info{
+        flex-wrap: wrap;
+    }
+}
 
 
 
 
 /*RESPONSIVIDADE TITULOS*/
 
-@media (max-width:1024px){}
+@media (max-width:1024px){
+    h1{
+        font-size: 44px;
+    }
+    
+    h2{
+        font-size: 44px;
+    }
+    
+    h3{
+        font-size: 32px;
+    }
+    
+    h4{
+        font-size: 26px;
+    }
+    
+    h5{
+        font-size: 20px;
+    }
+    
+    h6{
+        font-size: 16px;
+    }
+    
+    p{
+        font-size: 16px;
+    }
+}
 
 @media (max-width:767px){}
